@@ -1,0 +1,12 @@
+Process Id = 0, Previous Burst Time = 34, New Burst Time = 0, Response Time = 0, Turn Around Time = 34
+Process Id = 1, Previous Burst Time = 28, New Burst Time = 0, Response Time = 34, Turn Around Time = 62
+Process Id = 2, Previous Burst Time = 44, New Burst Time = 0, Response Time = 62, Turn Around Time = 106
+Process Id = 3, Previous Burst Time = 37, New Burst Time = 0, Response Time = 106, Turn Around Time = 143
+Process Id = 4, Previous Burst Time = 50, New Burst Time = 0, Response Time = 143, Turn Around Time = 193
+Process Id = 5, Previous Burst Time = 13, New Burst Time = 0, Response Time = 193, Turn Around Time = 206
+Process Id = 6, Previous Burst Time = 41, New Burst Time = 0, Response Time = 206, Turn Around Time = 247
+Process Id = 7, Previous Burst Time = 14, New Burst Time = 0, Response Time = 247, Turn Around Time = 261
+Process Id = 8, Previous Burst Time = 41, New Burst Time = 0, Response Time = 261, Turn Around Time = 302
+Process Id = 9, Previous Burst Time = 23, New Burst Time = 0, Response Time = 302, Turn Around Time = 325
+Average response time = 155.400000
+Average turn around time = 187.900000

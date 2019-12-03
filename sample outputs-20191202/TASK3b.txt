@@ -1,0 +1,704 @@
+Producer Id = 0, Items Produced = 1, New Process Id = 0, Burst Time = 34
+Producer Id = 1, Items Produced = 2, New Process Id = 1, Burst Time = 28
+Producer Id = 0, Items Produced = 3, New Process Id = 2, Burst Time = 44
+Producer Id = 0, Items Produced = 4, New Process Id = 3, Burst Time = 37
+Producer Id = 0, Items Produced = 5, New Process Id = 4, Burst Time = 50
+Consumer = 0, Process Id = 0, Priority = 6, Previous Burst Time = 34, New Burst Time = 29, Response Time = 0
+Consumer = 1, Process Id = 4, Priority = 13, Previous Burst Time = 50, New Burst Time = 45, Response Time = 0
+Consumer = 3, Process Id = 3, Priority = 12, Previous Burst Time = 37, New Burst Time = 32, Response Time = 0
+Consumer = 2, Process Id = 1, Priority = 19, Previous Burst Time = 28, New Burst Time = 23, Response Time = 0
+Consumer = 1, Process Id = 0, Priority = 6, Previous Burst Time = 29, New Burst Time = 24
+Consumer = 3, Process Id = 3, Priority = 12, Previous Burst Time = 32, New Burst Time = 27
+Consumer = 0, Process Id = 4, Priority = 13, Previous Burst Time = 45, New Burst Time = 40
+Consumer = 2, Process Id = 1, Priority = 19, Previous Burst Time = 23, New Burst Time = 18
+Consumer = 1, Process Id = 0, Priority = 6, Previous Burst Time = 24, New Burst Time = 19
+Consumer = 3, Process Id = 3, Priority = 12, Previous Burst Time = 27, New Burst Time = 22
+Consumer = 0, Process Id = 4, Priority = 13, Previous Burst Time = 40, New Burst Time = 35
+Consumer = 2, Process Id = 1, Priority = 19, Previous Burst Time = 18, New Burst Time = 13
+Consumer = 1, Process Id = 0, Priority = 6, Previous Burst Time = 19, New Burst Time = 14
+Consumer = 3, Process Id = 3, Priority = 12, Previous Burst Time = 22, New Burst Time = 17
+Consumer = 0, Process Id = 4, Priority = 13, Previous Burst Time = 35, New Burst Time = 30
+Consumer = 2, Process Id = 1, Priority = 19, Previous Burst Time = 13, New Burst Time = 8
+Consumer = 1, Process Id = 0, Priority = 6, Previous Burst Time = 14, New Burst Time = 9
+Consumer = 3, Process Id = 3, Priority = 12, Previous Burst Time = 17, New Burst Time = 12
+Consumer = 0, Process Id = 4, Priority = 13, Previous Burst Time = 30, New Burst Time = 25
+Consumer = 2, Process Id = 1, Priority = 19, Previous Burst Time = 8, New Burst Time = 3
+Consumer = 2, Process Id = 1, Priority = 19, Previous Burst Time = 3, New Burst Time = 0, Turn Around Time = 28
+Producer Id = 1, Items Produced = 6, New Process Id = 5, Burst Time = 13
+Consumer = 1, Process Id = 0, Priority = 6, Previous Burst Time = 9, New Burst Time = 4
+Consumer = 3, Process Id = 3, Priority = 12, Previous Burst Time = 12, New Burst Time = 7
+Consumer = 0, Process Id = 4, Priority = 13, Previous Burst Time = 25, New Burst Time = 20
+Consumer = 2, Process Id = 2, Priority = 31, Previous Burst Time = 44, New Burst Time = 39, Response Time = 28
+Consumer = 1, Process Id = 0, Priority = 6, Previous Burst Time = 4, New Burst Time = 0, Turn Around Time = 34
+Producer Id = 0, Items Produced = 7, New Process Id = 6, Burst Time = 41
+Consumer = 3, Process Id = 5, Priority = 11, Previous Burst Time = 13, New Burst Time = 8, Response Time = 1
+Consumer = 0, Process Id = 3, Priority = 12, Previous Burst Time = 7, New Burst Time = 2
+Consumer = 0, Process Id = 3, Priority = 12, Previous Burst Time = 2, New Burst Time = 0, Turn Around Time = 37
+Producer Id = 1, Items Produced = 8, New Process Id = 7, Burst Time = 14
+Consumer = 2, Process Id = 4, Priority = 13, Previous Burst Time = 20, New Burst Time = 15
+Consumer = 1, Process Id = 2, Priority = 31, Previous Burst Time = 39, New Burst Time = 34
+Consumer = 3, Process Id = 5, Priority = 11, Previous Burst Time = 8, New Burst Time = 3
+Consumer = 0, Process Id = 6, Priority = 27, Previous Burst Time = 41, New Burst Time = 36, Response Time = 3
+Consumer = 3, Process Id = 5, Priority = 11, Previous Burst Time = 3, New Burst Time = 0, Turn Around Time = 14
+Producer Id = 0, Items Produced = 9, New Process Id = 8, Burst Time = 41
+Consumer = 2, Process Id = 7, Priority = 6, Previous Burst Time = 14, New Burst Time = 9, Response Time = 1
+Consumer = 1, Process Id = 4, Priority = 13, Previous Burst Time = 15, New Burst Time = 10
+Consumer = 0, Process Id = 6, Priority = 27, Previous Burst Time = 36, New Burst Time = 31
+Consumer = 3, Process Id = 2, Priority = 31, Previous Burst Time = 34, New Burst Time = 29
+Consumer = 2, Process Id = 8, Priority = 2, Previous Burst Time = 41, New Burst Time = 36, Response Time = 0
+Consumer = 1, Process Id = 7, Priority = 6, Previous Burst Time = 9, New Burst Time = 4
+Consumer = 0, Process Id = 4, Priority = 13, Previous Burst Time = 10, New Burst Time = 5
+Consumer = 1, Process Id = 7, Priority = 6, Previous Burst Time = 4, New Burst Time = 0, Turn Around Time = 15
+Consumer = 3, Process Id = 6, Priority = 27, Previous Burst Time = 31, New Burst Time = 26
+Producer Id = 1, Items Produced = 10, New Process Id = 9, Burst Time = 23
+Consumer = 2, Process Id = 8, Priority = 2, Previous Burst Time = 36, New Burst Time = 31
+Consumer = 0, Process Id = 4, Priority = 13, Previous Burst Time = 5, New Burst Time = 0, Turn Around Time = 57
+Producer Id = 0, Items Produced = 11, New Process Id = 10, Burst Time = 12
+Consumer = 3, Process Id = 6, Priority = 27, Previous Burst Time = 26, New Burst Time = 21
+Consumer = 1, Process Id = 2, Priority = 31, Previous Burst Time = 29, New Burst Time = 24
+Consumer = 2, Process Id = 8, Priority = 2, Previous Burst Time = 31, New Burst Time = 26
+Consumer = 0, Process Id = 9, Priority = 24, Previous Burst Time = 23, New Burst Time = 18, Response Time = 4
+Consumer = 3, Process Id = 10, Priority = 8, Previous Burst Time = 12, New Burst Time = 7, Response Time = 0
+Consumer = 1, Process Id = 6, Priority = 27, Previous Burst Time = 21, New Burst Time = 16
+Consumer = 2, Process Id = 8, Priority = 2, Previous Burst Time = 26, New Burst Time = 21
+Consumer = 0, Process Id = 9, Priority = 24, Previous Burst Time = 18, New Burst Time = 13
+Consumer = 3, Process Id = 10, Priority = 8, Previous Burst Time = 7, New Burst Time = 2
+Consumer = 1, Process Id = 6, Priority = 27, Previous Burst Time = 16, New Burst Time = 11
+Consumer = 2, Process Id = 8, Priority = 2, Previous Burst Time = 21, New Burst Time = 16
+Consumer = 3, Process Id = 10, Priority = 8, Previous Burst Time = 2, New Burst Time = 0, Turn Around Time = 12
+Producer Id = 1, Items Produced = 12, New Process Id = 11, Burst Time = 18
+Consumer = 0, Process Id = 9, Priority = 24, Previous Burst Time = 13, New Burst Time = 8
+Consumer = 1, Process Id = 6, Priority = 27, Previous Burst Time = 11, New Burst Time = 6
+Consumer = 2, Process Id = 8, Priority = 2, Previous Burst Time = 16, New Burst Time = 11
+Consumer = 3, Process Id = 11, Priority = 13, Previous Burst Time = 18, New Burst Time = 13, Response Time = 0
+Consumer = 0, Process Id = 9, Priority = 24, Previous Burst Time = 8, New Burst Time = 3
+Consumer = 1, Process Id = 6, Priority = 27, Previous Burst Time = 6, New Burst Time = 1
+Consumer = 2, Process Id = 8, Priority = 2, Previous Burst Time = 11, New Burst Time = 6
+Consumer = 1, Process Id = 6, Priority = 27, Previous Burst Time = 1, New Burst Time = 0, Turn Around Time = 45
+Producer Id = 0, Items Produced = 13, New Process Id = 12, Burst Time = 33
+Consumer = 3, Process Id = 11, Priority = 13, Previous Burst Time = 13, New Burst Time = 8
+Consumer = 0, Process Id = 9, Priority = 24, Previous Burst Time = 3, New Burst Time = 0, Turn Around Time = 27
+Producer Id = 1, Items Produced = 14, New Process Id = 13, Burst Time = 13
+Consumer = 2, Process Id = 8, Priority = 2, Previous Burst Time = 6, New Burst Time = 1
+Consumer = 1, Process Id = 2, Priority = 31, Previous Burst Time = 24, New Burst Time = 19
+Consumer = 2, Process Id = 8, Priority = 2, Previous Burst Time = 1, New Burst Time = 0, Turn Around Time = 41
+Producer Id = 0, Items Produced = 15, New Process Id = 14, Burst Time = 18
+Consumer = 3, Process Id = 11, Priority = 13, Previous Burst Time = 8, New Burst Time = 3
+Consumer = 0, Process Id = 12, Priority = 26, Previous Burst Time = 33, New Burst Time = 28, Response Time = 0
+Consumer = 3, Process Id = 11, Priority = 13, Previous Burst Time = 3, New Burst Time = 0, Turn Around Time = 18
+Producer Id = 1, Items Produced = 16, New Process Id = 15, Burst Time = 30
+Consumer = 1, Process Id = 13, Priority = 3, Previous Burst Time = 13, New Burst Time = 8, Response Time = 4
+Consumer = 2, Process Id = 2, Priority = 31, Previous Burst Time = 19, New Burst Time = 14
+Consumer = 0, Process Id = 12, Priority = 26, Previous Burst Time = 28, New Burst Time = 23
+Consumer = 3, Process Id = 15, Priority = 26, Previous Burst Time = 30, New Burst Time = 25, Response Time = 0
+Consumer = 1, Process Id = 13, Priority = 3, Previous Burst Time = 8, New Burst Time = 3
+Consumer = 2, Process Id = 14, Priority = 31, Previous Burst Time = 18, New Burst Time = 13, Response Time = 5
+Consumer = 0, Process Id = 12, Priority = 26, Previous Burst Time = 23, New Burst Time = 18
+Consumer = 1, Process Id = 13, Priority = 3, Previous Burst Time = 3, New Burst Time = 0, Turn Around Time = 17
+Producer Id = 0, Items Produced = 17, New Process Id = 16, Burst Time = 23
+Consumer = 3, Process Id = 15, Priority = 26, Previous Burst Time = 25, New Burst Time = 20
+Consumer = 2, Process Id = 2, Priority = 31, Previous Burst Time = 14, New Burst Time = 9
+Consumer = 0, Process Id = 12, Priority = 26, Previous Burst Time = 18, New Burst Time = 13
+Consumer = 1, Process Id = 14, Priority = 31, Previous Burst Time = 13, New Burst Time = 8
+Consumer = 3, Process Id = 16, Priority = 18, Previous Burst Time = 23, New Burst Time = 18, Response Time = 1
+Consumer = 2, Process Id = 15, Priority = 26, Previous Burst Time = 20, New Burst Time = 15
+Consumer = 0, Process Id = 12, Priority = 26, Previous Burst Time = 13, New Burst Time = 8
+Consumer = 1, Process Id = 2, Priority = 31, Previous Burst Time = 9, New Burst Time = 4
+Consumer = 3, Process Id = 16, Priority = 18, Previous Burst Time = 18, New Burst Time = 13
+Consumer = 2, Process Id = 15, Priority = 26, Previous Burst Time = 15, New Burst Time = 10
+Consumer = 0, Process Id = 12, Priority = 26, Previous Burst Time = 8, New Burst Time = 3
+Consumer = 1, Process Id = 14, Priority = 31, Previous Burst Time = 8, New Burst Time = 3
+Consumer = 0, Process Id = 12, Priority = 26, Previous Burst Time = 3, New Burst Time = 0, Turn Around Time = 34
+Producer Id = 1, Items Produced = 18, New Process Id = 17, Burst Time = 20
+Consumer = 3, Process Id = 16, Priority = 18, Previous Burst Time = 13, New Burst Time = 8
+Consumer = 2, Process Id = 15, Priority = 26, Previous Burst Time = 10, New Burst Time = 5
+Consumer = 1, Process Id = 2, Priority = 31, Previous Burst Time = 4, New Burst Time = 0, Turn Around Time = 116
+Producer Id = 0, Items Produced = 19, New Process Id = 18, Burst Time = 44
+Consumer = 0, Process Id = 14, Priority = 31, Previous Burst Time = 3, New Burst Time = 0, Turn Around Time = 31
+Producer Id = 1, Items Produced = 20, New Process Id = 19, Burst Time = 12
+Consumer = 3, Process Id = 16, Priority = 18, Previous Burst Time = 8, New Burst Time = 3
+Consumer = 2, Process Id = 17, Priority = 23, Previous Burst Time = 20, New Burst Time = 15, Response Time = 1
+Consumer = 1, Process Id = 15, Priority = 26, Previous Burst Time = 5, New Burst Time = 0, Turn Around Time = 33
+Consumer = 3, Process Id = 16, Priority = 18, Previous Burst Time = 3, New Burst Time = 0, Turn Around Time = 24
+Producer Id = 0, Items Produced = 21, New Process Id = 20, Burst Time = 30
+Producer Id = 0, Items Produced = 22, New Process Id = 21, Burst Time = 22
+Consumer = 0, Process Id = 18, Priority = 24, Previous Burst Time = 44, New Burst Time = 39, Response Time = 0
+Consumer = 2, Process Id = 17, Priority = 23, Previous Burst Time = 15, New Burst Time = 10
+Consumer = 1, Process Id = 19, Priority = 26, Previous Burst Time = 12, New Burst Time = 7, Response Time = 4
+Consumer = 3, Process Id = 21, Priority = 23, Previous Burst Time = 22, New Burst Time = 17, Response Time = 0
+Consumer = 0, Process Id = 18, Priority = 24, Previous Burst Time = 39, New Burst Time = 34
+Consumer = 2, Process Id = 17, Priority = 23, Previous Burst Time = 10, New Burst Time = 5
+Consumer = 1, Process Id = 19, Priority = 26, Previous Burst Time = 7, New Burst Time = 2
+Consumer = 3, Process Id = 21, Priority = 23, Previous Burst Time = 17, New Burst Time = 12
+Consumer = 0, Process Id = 18, Priority = 24, Previous Burst Time = 34, New Burst Time = 29
+Consumer = 1, Process Id = 19, Priority = 26, Previous Burst Time = 2, New Burst Time = 0, Turn Around Time = 16
+Producer Id = 0, Items Produced = 23, New Process Id = 22, Burst Time = 35
+Consumer = 2, Process Id = 17, Priority = 23, Previous Burst Time = 5, New Burst Time = 0, Turn Around Time = 21
+Producer Id = 1, Items Produced = 24, New Process Id = 23, Burst Time = 49
+Consumer = 3, Process Id = 21, Priority = 23, Previous Burst Time = 12, New Burst Time = 7
+Consumer = 0, Process Id = 18, Priority = 24, Previous Burst Time = 29, New Burst Time = 24
+Consumer = 1, Process Id = 20, Priority = 29, Previous Burst Time = 30, New Burst Time = 25, Response Time = 12
+Consumer = 2, Process Id = 22, Priority = 9, Previous Burst Time = 35, New Burst Time = 30, Response Time = 1
+Consumer = 3, Process Id = 23, Priority = 20, Previous Burst Time = 49, New Burst Time = 44, Response Time = 1
+Consumer = 0, Process Id = 21, Priority = 23, Previous Burst Time = 7, New Burst Time = 2
+Consumer = 1, Process Id = 18, Priority = 24, Previous Burst Time = 24, New Burst Time = 19
+Consumer = 0, Process Id = 21, Priority = 23, Previous Burst Time = 2, New Burst Time = 0, Turn Around Time = 22
+Producer Id = 0, Items Produced = 25, New Process Id = 24, Burst Time = 16
+Consumer = 2, Process Id = 22, Priority = 9, Previous Burst Time = 30, New Burst Time = 25
+Consumer = 3, Process Id = 23, Priority = 20, Previous Burst Time = 44, New Burst Time = 39
+Consumer = 1, Process Id = 18, Priority = 24, Previous Burst Time = 19, New Burst Time = 14
+Consumer = 0, Process Id = 20, Priority = 29, Previous Burst Time = 25, New Burst Time = 20
+Consumer = 2, Process Id = 22, Priority = 9, Previous Burst Time = 25, New Burst Time = 20
+Consumer = 3, Process Id = 24, Priority = 18, Previous Burst Time = 16, New Burst Time = 11, Response Time = 2
+Consumer = 1, Process Id = 23, Priority = 20, Previous Burst Time = 39, New Burst Time = 34
+Consumer = 0, Process Id = 18, Priority = 24, Previous Burst Time = 14, New Burst Time = 9
+Consumer = 2, Process Id = 22, Priority = 9, Previous Burst Time = 20, New Burst Time = 15
+Consumer = 3, Process Id = 24, Priority = 18, Previous Burst Time = 11, New Burst Time = 6
+Consumer = 1, Process Id = 23, Priority = 20, Previous Burst Time = 34, New Burst Time = 29
+Consumer = 0, Process Id = 18, Priority = 24, Previous Burst Time = 9, New Burst Time = 4
+Consumer = 2, Process Id = 22, Priority = 9, Previous Burst Time = 15, New Burst Time = 10
+Consumer = 3, Process Id = 24, Priority = 18, Previous Burst Time = 6, New Burst Time = 1
+Consumer = 3, Process Id = 24, Priority = 18, Previous Burst Time = 1, New Burst Time = 0, Turn Around Time = 18
+Producer Id = 1, Items Produced = 26, New Process Id = 25, Burst Time = 14
+Consumer = 0, Process Id = 18, Priority = 24, Previous Burst Time = 4, New Burst Time = 0, Turn Around Time = 46
+Producer Id = 0, Items Produced = 27, New Process Id = 26, Burst Time = 42
+Consumer = 1, Process Id = 23, Priority = 20, Previous Burst Time = 29, New Burst Time = 24
+Consumer = 2, Process Id = 22, Priority = 9, Previous Burst Time = 10, New Burst Time = 5
+Consumer = 3, Process Id = 25, Priority = 6, Previous Burst Time = 14, New Burst Time = 9, Response Time = 0
+Consumer = 0, Process Id = 20, Priority = 29, Previous Burst Time = 20, New Burst Time = 15
+Consumer = 1, Process Id = 26, Priority = 20, Previous Burst Time = 42, New Burst Time = 37, Response Time = 0
+Consumer = 2, Process Id = 22, Priority = 9, Previous Burst Time = 5, New Burst Time = 0, Turn Around Time = 36
+Producer Id = 1, Items Produced = 28, New Process Id = 27, Burst Time = 7
+Consumer = 3, Process Id = 25, Priority = 6, Previous Burst Time = 9, New Burst Time = 4
+Consumer = 0, Process Id = 23, Priority = 20, Previous Burst Time = 24, New Burst Time = 19
+Consumer = 1, Process Id = 26, Priority = 20, Previous Burst Time = 37, New Burst Time = 32
+Consumer = 2, Process Id = 20, Priority = 29, Previous Burst Time = 15, New Burst Time = 10
+Consumer = 3, Process Id = 25, Priority = 6, Previous Burst Time = 4, New Burst Time = 0, Turn Around Time = 14
+Producer Id = 0, Items Produced = 29, New Process Id = 28, Burst Time = 13
+Consumer = 0, Process Id = 27, Priority = 17, Previous Burst Time = 7, New Burst Time = 2, Response Time = 2
+Consumer = 1, Process Id = 23, Priority = 20, Previous Burst Time = 19, New Burst Time = 14
+Consumer = 2, Process Id = 26, Priority = 20, Previous Burst Time = 32, New Burst Time = 27
+Consumer = 1, Process Id = 27, Priority = 17, Previous Burst Time = 2, New Burst Time = 0, Turn Around Time = 10
+Producer Id = 1, Items Produced = 30, New Process Id = 29, Burst Time = 47
+Consumer = 3, Process Id = 20, Priority = 29, Previous Burst Time = 10, New Burst Time = 5
+Consumer = 0, Process Id = 28, Priority = 2, Previous Burst Time = 13, New Burst Time = 8, Response Time = 1
+Consumer = 2, Process Id = 23, Priority = 20, Previous Burst Time = 14, New Burst Time = 9
+Consumer = 1, Process Id = 26, Priority = 20, Previous Burst Time = 27, New Burst Time = 22
+Consumer = 3, Process Id = 29, Priority = 1, Previous Burst Time = 47, New Burst Time = 42, Response Time = 1
+Consumer = 0, Process Id = 28, Priority = 2, Previous Burst Time = 8, New Burst Time = 3
+Consumer = 2, Process Id = 23, Priority = 20, Previous Burst Time = 9, New Burst Time = 4
+Consumer = 1, Process Id = 26, Priority = 20, Previous Burst Time = 22, New Burst Time = 17
+Consumer = 0, Process Id = 28, Priority = 2, Previous Burst Time = 3, New Burst Time = 0, Turn Around Time = 14
+Producer Id = 0, Items Produced = 31, New Process Id = 30, Burst Time = 6
+Consumer = 3, Process Id = 29, Priority = 1, Previous Burst Time = 42, New Burst Time = 37
+Consumer = 2, Process Id = 23, Priority = 20, Previous Burst Time = 4, New Burst Time = 0, Turn Around Time = 59
+Producer Id = 1, Items Produced = 32, New Process Id = 31, Burst Time = 35
+Consumer = 1, Process Id = 26, Priority = 20, Previous Burst Time = 17, New Burst Time = 12
+Consumer = 0, Process Id = 20, Priority = 29, Previous Burst Time = 5, New Burst Time = 0, Turn Around Time = 74
+Producer Id = 0, Items Produced = 33, New Process Id = 32, Burst Time = 37
+Consumer = 3, Process Id = 29, Priority = 1, Previous Burst Time = 37, New Burst Time = 32
+Consumer = 2, Process Id = 30, Priority = 29, Previous Burst Time = 6, New Burst Time = 1, Response Time = 3
+Consumer = 1, Process Id = 31, Priority = 7, Previous Burst Time = 35, New Burst Time = 30, Response Time = 1
+Consumer = 0, Process Id = 26, Priority = 20, Previous Burst Time = 12, New Burst Time = 7
+Consumer = 3, Process Id = 29, Priority = 1, Previous Burst Time = 32, New Burst Time = 27
+Consumer = 2, Process Id = 32, Priority = 9, Previous Burst Time = 37, New Burst Time = 32, Response Time = 3
+Consumer = 1, Process Id = 31, Priority = 7, Previous Burst Time = 30, New Burst Time = 25
+Consumer = 0, Process Id = 26, Priority = 20, Previous Burst Time = 7, New Burst Time = 2
+Consumer = 3, Process Id = 29, Priority = 1, Previous Burst Time = 27, New Burst Time = 22
+Consumer = 0, Process Id = 26, Priority = 20, Previous Burst Time = 2, New Burst Time = 0, Turn Around Time = 45
+Producer Id = 1, Items Produced = 34, New Process Id = 33, Burst Time = 47
+Consumer = 0, Process Id = 30, Priority = 29, Previous Burst Time = 1, New Burst Time = 0, Turn Around Time = 18
+Producer Id = 0, Items Produced = 35, New Process Id = 34, Burst Time = 14
+Consumer = 2, Process Id = 32, Priority = 9, Previous Burst Time = 32, New Burst Time = 27
+Consumer = 1, Process Id = 31, Priority = 7, Previous Burst Time = 25, New Burst Time = 20
+Consumer = 3, Process Id = 29, Priority = 1, Previous Burst Time = 22, New Burst Time = 17
+Consumer = 0, Process Id = 33, Priority = 1, Previous Burst Time = 47, New Burst Time = 42, Response Time = 1
+Consumer = 2, Process Id = 34, Priority = 1, Previous Burst Time = 14, New Burst Time = 9, Response Time = 0
+Consumer = 1, Process Id = 31, Priority = 7, Previous Burst Time = 20, New Burst Time = 15
+Consumer = 3, Process Id = 29, Priority = 1, Previous Burst Time = 17, New Burst Time = 12
+Consumer = 0, Process Id = 33, Priority = 1, Previous Burst Time = 42, New Burst Time = 37
+Consumer = 2, Process Id = 34, Priority = 1, Previous Burst Time = 9, New Burst Time = 4
+Consumer = 1, Process Id = 31, Priority = 7, Previous Burst Time = 15, New Burst Time = 10
+Consumer = 3, Process Id = 29, Priority = 1, Previous Burst Time = 12, New Burst Time = 7
+Consumer = 2, Process Id = 34, Priority = 1, Previous Burst Time = 4, New Burst Time = 0, Turn Around Time = 14
+Producer Id = 1, Items Produced = 36, New Process Id = 35, Burst Time = 25
+Consumer = 0, Process Id = 33, Priority = 1, Previous Burst Time = 37, New Burst Time = 32
+Consumer = 1, Process Id = 31, Priority = 7, Previous Burst Time = 10, New Burst Time = 5
+Consumer = 3, Process Id = 29, Priority = 1, Previous Burst Time = 7, New Burst Time = 2
+Consumer = 2, Process Id = 32, Priority = 9, Previous Burst Time = 27, New Burst Time = 22
+Consumer = 3, Process Id = 29, Priority = 1, Previous Burst Time = 2, New Burst Time = 0, Turn Around Time = 48
+Producer Id = 0, Items Produced = 37, New Process Id = 36, Burst Time = 33
+Consumer = 0, Process Id = 33, Priority = 1, Previous Burst Time = 32, New Burst Time = 27
+Consumer = 1, Process Id = 35, Priority = 7, Previous Burst Time = 25, New Burst Time = 20, Response Time = 2
+Consumer = 2, Process Id = 31, Priority = 7, Previous Burst Time = 5, New Burst Time = 0, Turn Around Time = 39
+Producer Id = 1, Items Produced = 38, New Process Id = 37, Burst Time = 15
+Consumer = 3, Process Id = 32, Priority = 9, Previous Burst Time = 22, New Burst Time = 17
+Consumer = 0, Process Id = 36, Priority = 1, Previous Burst Time = 33, New Burst Time = 28, Response Time = 0
+Consumer = 1, Process Id = 33, Priority = 1, Previous Burst Time = 27, New Burst Time = 22
+Consumer = 2, Process Id = 35, Priority = 7, Previous Burst Time = 20, New Burst Time = 15
+Consumer = 3, Process Id = 32, Priority = 9, Previous Burst Time = 17, New Burst Time = 12
+Consumer = 0, Process Id = 36, Priority = 1, Previous Burst Time = 28, New Burst Time = 23
+Consumer = 1, Process Id = 33, Priority = 1, Previous Burst Time = 22, New Burst Time = 17
+Consumer = 2, Process Id = 35, Priority = 7, Previous Burst Time = 15, New Burst Time = 10
+Consumer = 3, Process Id = 32, Priority = 9, Previous Burst Time = 12, New Burst Time = 7
+Consumer = 0, Process Id = 36, Priority = 1, Previous Burst Time = 23, New Burst Time = 18
+Consumer = 1, Process Id = 33, Priority = 1, Previous Burst Time = 17, New Burst Time = 12
+Consumer = 2, Process Id = 35, Priority = 7, Previous Burst Time = 10, New Burst Time = 5
+Consumer = 3, Process Id = 32, Priority = 9, Previous Burst Time = 7, New Burst Time = 2
+Consumer = 0, Process Id = 36, Priority = 1, Previous Burst Time = 18, New Burst Time = 13
+Consumer = 1, Process Id = 33, Priority = 1, Previous Burst Time = 12, New Burst Time = 7
+Consumer = 3, Process Id = 32, Priority = 9, Previous Burst Time = 2, New Burst Time = 0, Turn Around Time = 55
+Producer Id = 0, Items Produced = 39, New Process Id = 38, Burst Time = 35
+Consumer = 2, Process Id = 35, Priority = 7, Previous Burst Time = 5, New Burst Time = 0, Turn Around Time = 30
+Producer Id = 1, Items Produced = 40, New Process Id = 39, Burst Time = 44
+Consumer = 0, Process Id = 36, Priority = 1, Previous Burst Time = 13, New Burst Time = 8
+Consumer = 1, Process Id = 33, Priority = 1, Previous Burst Time = 7, New Burst Time = 2
+Consumer = 3, Process Id = 37, Priority = 23, Previous Burst Time = 15, New Burst Time = 10, Response Time = 17
+Consumer = 1, Process Id = 33, Priority = 1, Previous Burst Time = 2, New Burst Time = 0, Turn Around Time = 49
+Producer Id = 0, Items Produced = 41, New Process Id = 40, Burst Time = 38
+Consumer = 2, Process Id = 38, Priority = 28, Previous Burst Time = 35, New Burst Time = 30, Response Time = 2
+Consumer = 0, Process Id = 36, Priority = 1, Previous Burst Time = 8, New Burst Time = 3
+Consumer = 3, Process Id = 39, Priority = 22, Previous Burst Time = 44, New Burst Time = 39, Response Time = 2
+Consumer = 0, Process Id = 36, Priority = 1, Previous Burst Time = 3, New Burst Time = 0, Turn Around Time = 33
+Producer Id = 1, Items Produced = 42, New Process Id = 41, Burst Time = 27
+Consumer = 1, Process Id = 37, Priority = 23, Previous Burst Time = 10, New Burst Time = 5
+Consumer = 2, Process Id = 40, Priority = 24, Previous Burst Time = 38, New Burst Time = 33, Response Time = 0
+Consumer = 3, Process Id = 39, Priority = 22, Previous Burst Time = 39, New Burst Time = 34
+Consumer = 0, Process Id = 38, Priority = 28, Previous Burst Time = 30, New Burst Time = 25
+Consumer = 1, Process Id = 41, Priority = 10, Previous Burst Time = 27, New Burst Time = 22, Response Time = 0
+Consumer = 2, Process Id = 37, Priority = 23, Previous Burst Time = 5, New Burst Time = 0, Turn Around Time = 35
+Producer Id = 0, Items Produced = 43, New Process Id = 42, Burst Time = 39
+Consumer = 3, Process Id = 39, Priority = 22, Previous Burst Time = 34, New Burst Time = 29
+Consumer = 0, Process Id = 40, Priority = 24, Previous Burst Time = 33, New Burst Time = 28
+Consumer = 1, Process Id = 41, Priority = 10, Previous Burst Time = 22, New Burst Time = 17
+Consumer = 2, Process Id = 42, Priority = 16, Previous Burst Time = 39, New Burst Time = 34, Response Time = 0
+Consumer = 3, Process Id = 39, Priority = 22, Previous Burst Time = 29, New Burst Time = 24
+Consumer = 0, Process Id = 40, Priority = 24, Previous Burst Time = 28, New Burst Time = 23
+Consumer = 1, Process Id = 41, Priority = 10, Previous Burst Time = 17, New Burst Time = 12
+Consumer = 2, Process Id = 42, Priority = 16, Previous Burst Time = 34, New Burst Time = 29
+Consumer = 3, Process Id = 39, Priority = 22, Previous Burst Time = 24, New Burst Time = 19
+Consumer = 0, Process Id = 40, Priority = 24, Previous Burst Time = 23, New Burst Time = 18
+Consumer = 1, Process Id = 41, Priority = 10, Previous Burst Time = 12, New Burst Time = 7
+Consumer = 2, Process Id = 42, Priority = 16, Previous Burst Time = 29, New Burst Time = 24
+Consumer = 3, Process Id = 39, Priority = 22, Previous Burst Time = 19, New Burst Time = 14
+Consumer = 0, Process Id = 40, Priority = 24, Previous Burst Time = 18, New Burst Time = 13
+Consumer = 1, Process Id = 41, Priority = 10, Previous Burst Time = 7, New Burst Time = 2
+Consumer = 2, Process Id = 42, Priority = 16, Previous Burst Time = 24, New Burst Time = 19
+Consumer = 1, Process Id = 41, Priority = 10, Previous Burst Time = 2, New Burst Time = 0, Turn Around Time = 27
+Producer Id = 1, Items Produced = 44, New Process Id = 43, Burst Time = 4
+Consumer = 3, Process Id = 39, Priority = 22, Previous Burst Time = 14, New Burst Time = 9
+Consumer = 0, Process Id = 40, Priority = 24, Previous Burst Time = 13, New Burst Time = 8
+Consumer = 2, Process Id = 42, Priority = 16, Previous Burst Time = 19, New Burst Time = 14
+Consumer = 1, Process Id = 38, Priority = 28, Previous Burst Time = 25, New Burst Time = 20
+Consumer = 3, Process Id = 39, Priority = 22, Previous Burst Time = 9, New Burst Time = 4
+Consumer = 0, Process Id = 40, Priority = 24, Previous Burst Time = 8, New Burst Time = 3
+Consumer = 2, Process Id = 42, Priority = 16, Previous Burst Time = 14, New Burst Time = 9
+Consumer = 1, Process Id = 43, Priority = 27, Previous Burst Time = 4, New Burst Time = 0, Response Time = 5, Turn Around Time = 9
+Producer Id = 0, Items Produced = 45, New Process Id = 44, Burst Time = 5
+Consumer = 3, Process Id = 39, Priority = 22, Previous Burst Time = 4, New Burst Time = 0, Turn Around Time = 46
+Producer Id = 1, Items Produced = 46, New Process Id = 45, Burst Time = 33
+Consumer = 0, Process Id = 40, Priority = 24, Previous Burst Time = 3, New Burst Time = 0, Turn Around Time = 42
+Producer Id = 0, Items Produced = 47, New Process Id = 46, Burst Time = 27
+Consumer = 2, Process Id = 42, Priority = 16, Previous Burst Time = 9, New Burst Time = 4
+Consumer = 1, Process Id = 38, Priority = 28, Previous Burst Time = 20, New Burst Time = 15
+Consumer = 3, Process Id = 44, Priority = 15, Previous Burst Time = 5, New Burst Time = 0, Response Time = 1, Turn Around Time = 6
+Producer Id = 1, Items Produced = 48, New Process Id = 47, Burst Time = 40
+Consumer = 0, Process Id = 45, Priority = 20, Previous Burst Time = 33, New Burst Time = 28, Response Time = 0
+Consumer = 2, Process Id = 42, Priority = 16, Previous Burst Time = 4, New Burst Time = 0, Turn Around Time = 39
+Producer Id = 0, Items Produced = 49, New Process Id = 48, Burst Time = 27
+Consumer = 1, Process Id = 46, Priority = 24, Previous Burst Time = 27, New Burst Time = 22, Response Time = 3
+Consumer = 3, Process Id = 38, Priority = 28, Previous Burst Time = 15, New Burst Time = 10
+Consumer = 0, Process Id = 45, Priority = 20, Previous Burst Time = 28, New Burst Time = 23
+Consumer = 2, Process Id = 48, Priority = 26, Previous Burst Time = 27, New Burst Time = 22, Response Time = 0
+Consumer = 1, Process Id = 46, Priority = 24, Previous Burst Time = 22, New Burst Time = 17
+Consumer = 3, Process Id = 47, Priority = 28, Previous Burst Time = 40, New Burst Time = 35, Response Time = 5
+Consumer = 0, Process Id = 45, Priority = 20, Previous Burst Time = 23, New Burst Time = 18
+Consumer = 2, Process Id = 48, Priority = 26, Previous Burst Time = 22, New Burst Time = 17
+Consumer = 1, Process Id = 46, Priority = 24, Previous Burst Time = 17, New Burst Time = 12
+Consumer = 3, Process Id = 38, Priority = 28, Previous Burst Time = 10, New Burst Time = 5
+Consumer = 0, Process Id = 45, Priority = 20, Previous Burst Time = 18, New Burst Time = 13
+Consumer = 2, Process Id = 48, Priority = 26, Previous Burst Time = 17, New Burst Time = 12
+Consumer = 1, Process Id = 46, Priority = 24, Previous Burst Time = 12, New Burst Time = 7
+Consumer = 3, Process Id = 47, Priority = 28, Previous Burst Time = 35, New Burst Time = 30
+Consumer = 0, Process Id = 45, Priority = 20, Previous Burst Time = 13, New Burst Time = 8
+Consumer = 2, Process Id = 48, Priority = 26, Previous Burst Time = 12, New Burst Time = 7
+Consumer = 1, Process Id = 46, Priority = 24, Previous Burst Time = 7, New Burst Time = 2
+Consumer = 3, Process Id = 38, Priority = 28, Previous Burst Time = 5, New Burst Time = 0, Turn Around Time = 79
+Producer Id = 1, Items Produced = 50, New Process Id = 49, Burst Time = 45
+Consumer = 0, Process Id = 45, Priority = 20, Previous Burst Time = 8, New Burst Time = 3
+Consumer = 1, Process Id = 46, Priority = 24, Previous Burst Time = 2, New Burst Time = 0, Turn Around Time = 30
+Producer Id = 0, Items Produced = 51, New Process Id = 50, Burst Time = 46
+Consumer = 2, Process Id = 48, Priority = 26, Previous Burst Time = 7, New Burst Time = 2
+Consumer = 0, Process Id = 45, Priority = 20, Previous Burst Time = 3, New Burst Time = 0, Turn Around Time = 33
+Producer Id = 1, Items Produced = 52, New Process Id = 51, Burst Time = 35
+Consumer = 3, Process Id = 49, Priority = 3, Previous Burst Time = 45, New Burst Time = 40, Response Time = 0
+Consumer = 0, Process Id = 48, Priority = 26, Previous Burst Time = 2, New Burst Time = 0, Turn Around Time = 27
+Producer Id = 0, Items Produced = 53, New Process Id = 52, Burst Time = 18
+Consumer = 1, Process Id = 47, Priority = 28, Previous Burst Time = 30, New Burst Time = 25
+Consumer = 2, Process Id = 50, Priority = 26, Previous Burst Time = 46, New Burst Time = 41, Response Time = 1
+Consumer = 3, Process Id = 49, Priority = 3, Previous Burst Time = 40, New Burst Time = 35
+Consumer = 0, Process Id = 51, Priority = 26, Previous Burst Time = 35, New Burst Time = 30, Response Time = 2
+Consumer = 1, Process Id = 52, Priority = 9, Previous Burst Time = 18, New Burst Time = 13, Response Time = 0
+Consumer = 2, Process Id = 50, Priority = 26, Previous Burst Time = 41, New Burst Time = 36
+Consumer = 3, Process Id = 49, Priority = 3, Previous Burst Time = 35, New Burst Time = 30
+Consumer = 0, Process Id = 51, Priority = 26, Previous Burst Time = 30, New Burst Time = 25
+Consumer = 1, Process Id = 52, Priority = 9, Previous Burst Time = 13, New Burst Time = 8
+Consumer = 2, Process Id = 50, Priority = 26, Previous Burst Time = 36, New Burst Time = 31
+Consumer = 3, Process Id = 49, Priority = 3, Previous Burst Time = 30, New Burst Time = 25
+Consumer = 0, Process Id = 51, Priority = 26, Previous Burst Time = 25, New Burst Time = 20
+Consumer = 1, Process Id = 52, Priority = 9, Previous Burst Time = 8, New Burst Time = 3
+Consumer = 2, Process Id = 50, Priority = 26, Previous Burst Time = 31, New Burst Time = 26
+Consumer = 1, Process Id = 52, Priority = 9, Previous Burst Time = 3, New Burst Time = 0, Turn Around Time = 18
+Producer Id = 1, Items Produced = 54, New Process Id = 53, Burst Time = 48
+Consumer = 3, Process Id = 49, Priority = 3, Previous Burst Time = 25, New Burst Time = 20
+Consumer = 0, Process Id = 51, Priority = 26, Previous Burst Time = 20, New Burst Time = 15
+Consumer = 2, Process Id = 50, Priority = 26, Previous Burst Time = 26, New Burst Time = 21
+Consumer = 1, Process Id = 47, Priority = 28, Previous Burst Time = 25, New Burst Time = 20
+Consumer = 3, Process Id = 49, Priority = 3, Previous Burst Time = 20, New Burst Time = 15
+Consumer = 0, Process Id = 53, Priority = 6, Previous Burst Time = 48, New Burst Time = 43, Response Time = 1
+Consumer = 2, Process Id = 51, Priority = 26, Previous Burst Time = 15, New Burst Time = 10
+Consumer = 1, Process Id = 50, Priority = 26, Previous Burst Time = 21, New Burst Time = 16
+Consumer = 3, Process Id = 49, Priority = 3, Previous Burst Time = 15, New Burst Time = 10
+Consumer = 0, Process Id = 53, Priority = 6, Previous Burst Time = 43, New Burst Time = 38
+Consumer = 2, Process Id = 51, Priority = 26, Previous Burst Time = 10, New Burst Time = 5
+Consumer = 1, Process Id = 50, Priority = 26, Previous Burst Time = 16, New Burst Time = 11
+Consumer = 3, Process Id = 49, Priority = 3, Previous Burst Time = 10, New Burst Time = 5
+Consumer = 0, Process Id = 53, Priority = 6, Previous Burst Time = 38, New Burst Time = 33
+Consumer = 2, Process Id = 51, Priority = 26, Previous Burst Time = 5, New Burst Time = 0, Turn Around Time = 39
+Producer Id = 0, Items Produced = 55, New Process Id = 54, Burst Time = 18
+Consumer = 1, Process Id = 50, Priority = 26, Previous Burst Time = 11, New Burst Time = 6
+Consumer = 3, Process Id = 49, Priority = 3, Previous Burst Time = 5, New Burst Time = 0, Turn Around Time = 45
+Producer Id = 1, Items Produced = 56, New Process Id = 55, Burst Time = 3
+Consumer = 0, Process Id = 53, Priority = 6, Previous Burst Time = 33, New Burst Time = 28
+Consumer = 2, Process Id = 47, Priority = 28, Previous Burst Time = 20, New Burst Time = 15
+Consumer = 3, Process Id = 55, Priority = 20, Previous Burst Time = 3, New Burst Time = 0, Response Time = 0, Turn Around Time = 3
+Producer Id = 0, Items Produced = 57, New Process Id = 56, Burst Time = 2
+Consumer = 1, Process Id = 50, Priority = 26, Previous Burst Time = 6, New Burst Time = 1
+Consumer = 0, Process Id = 53, Priority = 6, Previous Burst Time = 28, New Burst Time = 23
+Consumer = 1, Process Id = 56, Priority = 24, Previous Burst Time = 2, New Burst Time = 0, Response Time = 0, Turn Around Time = 2
+Producer Id = 1, Items Produced = 58, New Process Id = 57, Burst Time = 37
+Consumer = 1, Process Id = 50, Priority = 26, Previous Burst Time = 1, New Burst Time = 0, Turn Around Time = 51
+Producer Id = 0, Items Produced = 59, New Process Id = 58, Burst Time = 16
+Consumer = 2, Process Id = 54, Priority = 28, Previous Burst Time = 18, New Burst Time = 13, Response Time = 5
+Consumer = 3, Process Id = 47, Priority = 28, Previous Burst Time = 15, New Burst Time = 10
+Consumer = 0, Process Id = 53, Priority = 6, Previous Burst Time = 23, New Burst Time = 18
+Consumer = 1, Process Id = 57, Priority = 1, Previous Burst Time = 37, New Burst Time = 32, Response Time = 1
+Consumer = 2, Process Id = 58, Priority = 25, Previous Burst Time = 16, New Burst Time = 11, Response Time = 0
+Consumer = 3, Process Id = 54, Priority = 28, Previous Burst Time = 13, New Burst Time = 8
+Consumer = 0, Process Id = 53, Priority = 6, Previous Burst Time = 18, New Burst Time = 13
+Consumer = 1, Process Id = 57, Priority = 1, Previous Burst Time = 32, New Burst Time = 27
+Consumer = 2, Process Id = 58, Priority = 25, Previous Burst Time = 11, New Burst Time = 6
+Consumer = 3, Process Id = 47, Priority = 28, Previous Burst Time = 10, New Burst Time = 5
+Consumer = 0, Process Id = 53, Priority = 6, Previous Burst Time = 13, New Burst Time = 8
+Consumer = 1, Process Id = 57, Priority = 1, Previous Burst Time = 27, New Burst Time = 22
+Consumer = 2, Process Id = 58, Priority = 25, Previous Burst Time = 6, New Burst Time = 1
+Consumer = 3, Process Id = 54, Priority = 28, Previous Burst Time = 8, New Burst Time = 3
+Consumer = 2, Process Id = 58, Priority = 25, Previous Burst Time = 1, New Burst Time = 0, Turn Around Time = 16
+Producer Id = 1, Items Produced = 60, New Process Id = 59, Burst Time = 45
+Consumer = 0, Process Id = 53, Priority = 6, Previous Burst Time = 8, New Burst Time = 3
+Consumer = 2, Process Id = 54, Priority = 28, Previous Burst Time = 3, New Burst Time = 0, Turn Around Time = 29
+Producer Id = 0, Items Produced = 61, New Process Id = 60, Burst Time = 41
+Consumer = 1, Process Id = 57, Priority = 1, Previous Burst Time = 22, New Burst Time = 17
+Consumer = 3, Process Id = 47, Priority = 28, Previous Burst Time = 5, New Burst Time = 0, Turn Around Time = 98
+Producer Id = 1, Items Produced = 62, New Process Id = 61, Burst Time = 32
+Consumer = 0, Process Id = 53, Priority = 6, Previous Burst Time = 3, New Burst Time = 0, Turn Around Time = 49
+Producer Id = 0, Items Produced = 63, New Process Id = 62, Burst Time = 48
+Consumer = 2, Process Id = 60, Priority = 25, Previous Burst Time = 41, New Burst Time = 36, Response Time = 0
+Consumer = 1, Process Id = 57, Priority = 1, Previous Burst Time = 17, New Burst Time = 12
+Consumer = 3, Process Id = 61, Priority = 21, Previous Burst Time = 32, New Burst Time = 27, Response Time = 0
+Consumer = 0, Process Id = 59, Priority = 27, Previous Burst Time = 45, New Burst Time = 40, Response Time = 4
+Consumer = 2, Process Id = 62, Priority = 11, Previous Burst Time = 48, New Burst Time = 43, Response Time = 3
+Consumer = 1, Process Id = 57, Priority = 1, Previous Burst Time = 12, New Burst Time = 7
+Consumer = 3, Process Id = 61, Priority = 21, Previous Burst Time = 27, New Burst Time = 22
+Consumer = 0, Process Id = 60, Priority = 25, Previous Burst Time = 36, New Burst Time = 31
+Consumer = 2, Process Id = 62, Priority = 11, Previous Burst Time = 43, New Burst Time = 38
+Consumer = 1, Process Id = 57, Priority = 1, Previous Burst Time = 7, New Burst Time = 2
+Consumer = 3, Process Id = 61, Priority = 21, Previous Burst Time = 22, New Burst Time = 17
+Consumer = 0, Process Id = 60, Priority = 25, Previous Burst Time = 31, New Burst Time = 26
+Consumer = 1, Process Id = 57, Priority = 1, Previous Burst Time = 2, New Burst Time = 0, Turn Around Time = 38
+Producer Id = 1, Items Produced = 64, New Process Id = 63, Burst Time = 32
+Consumer = 2, Process Id = 62, Priority = 11, Previous Burst Time = 38, New Burst Time = 33
+Consumer = 3, Process Id = 61, Priority = 21, Previous Burst Time = 17, New Burst Time = 12
+Consumer = 0, Process Id = 60, Priority = 25, Previous Burst Time = 26, New Burst Time = 21
+Consumer = 1, Process Id = 59, Priority = 27, Previous Burst Time = 40, New Burst Time = 35
+Consumer = 2, Process Id = 62, Priority = 11, Previous Burst Time = 33, New Burst Time = 28
+Consumer = 3, Process Id = 63, Priority = 19, Previous Burst Time = 32, New Burst Time = 27, Response Time = 4
+Consumer = 0, Process Id = 61, Priority = 21, Previous Burst Time = 12, New Burst Time = 7
+Consumer = 1, Process Id = 60, Priority = 25, Previous Burst Time = 21, New Burst Time = 16
+Consumer = 2, Process Id = 62, Priority = 11, Previous Burst Time = 28, New Burst Time = 23
+Consumer = 3, Process Id = 63, Priority = 19, Previous Burst Time = 27, New Burst Time = 22
+Consumer = 0, Process Id = 61, Priority = 21, Previous Burst Time = 7, New Burst Time = 2
+Consumer = 1, Process Id = 60, Priority = 25, Previous Burst Time = 16, New Burst Time = 11
+Consumer = 0, Process Id = 61, Priority = 21, Previous Burst Time = 2, New Burst Time = 0, Turn Around Time = 32
+Producer Id = 0, Items Produced = 65, New Process Id = 64, Burst Time = 10
+Consumer = 2, Process Id = 62, Priority = 11, Previous Burst Time = 23, New Burst Time = 18
+Consumer = 3, Process Id = 63, Priority = 19, Previous Burst Time = 22, New Burst Time = 17
+Consumer = 1, Process Id = 60, Priority = 25, Previous Burst Time = 11, New Burst Time = 6
+Consumer = 0, Process Id = 59, Priority = 27, Previous Burst Time = 35, New Burst Time = 30
+Consumer = 2, Process Id = 62, Priority = 11, Previous Burst Time = 18, New Burst Time = 13
+Consumer = 3, Process Id = 64, Priority = 15, Previous Burst Time = 10, New Burst Time = 5, Response Time = 2
+Consumer = 1, Process Id = 63, Priority = 19, Previous Burst Time = 17, New Burst Time = 12
+Consumer = 0, Process Id = 60, Priority = 25, Previous Burst Time = 6, New Burst Time = 1
+Consumer = 0, Process Id = 60, Priority = 25, Previous Burst Time = 1, New Burst Time = 0, Turn Around Time = 44
+Producer Id = 1, Items Produced = 66, New Process Id = 65, Burst Time = 18
+Consumer = 2, Process Id = 62, Priority = 11, Previous Burst Time = 13, New Burst Time = 8
+Consumer = 3, Process Id = 64, Priority = 15, Previous Burst Time = 5, New Burst Time = 0, Turn Around Time = 12
+Producer Id = 0, Items Produced = 67, New Process Id = 66, Burst Time = 48
+Consumer = 1, Process Id = 63, Priority = 19, Previous Burst Time = 12, New Burst Time = 7
+Consumer = 0, Process Id = 59, Priority = 27, Previous Burst Time = 30, New Burst Time = 25
+Consumer = 2, Process Id = 65, Priority = 0, Previous Burst Time = 18, New Burst Time = 13, Response Time = 0
+Consumer = 3, Process Id = 62, Priority = 11, Previous Burst Time = 8, New Burst Time = 3
+Consumer = 1, Process Id = 66, Priority = 1, Previous Burst Time = 48, New Burst Time = 43, Response Time = 0
+Consumer = 3, Process Id = 62, Priority = 11, Previous Burst Time = 3, New Burst Time = 0, Turn Around Time = 52
+Producer Id = 1, Items Produced = 68, New Process Id = 67, Burst Time = 37
+Consumer = 0, Process Id = 63, Priority = 19, Previous Burst Time = 7, New Burst Time = 2
+Consumer = 2, Process Id = 65, Priority = 0, Previous Burst Time = 13, New Burst Time = 8
+Consumer = 0, Process Id = 63, Priority = 19, Previous Burst Time = 2, New Burst Time = 0, Turn Around Time = 39
+Producer Id = 0, Items Produced = 69, New Process Id = 68, Burst Time = 7
+Consumer = 1, Process Id = 66, Priority = 1, Previous Burst Time = 43, New Burst Time = 38
+Consumer = 3, Process Id = 67, Priority = 5, Previous Burst Time = 37, New Burst Time = 32, Response Time = 0
+Consumer = 2, Process Id = 65, Priority = 0, Previous Burst Time = 8, New Burst Time = 3
+Consumer = 0, Process Id = 59, Priority = 27, Previous Burst Time = 25, New Burst Time = 20
+Consumer = 1, Process Id = 66, Priority = 1, Previous Burst Time = 38, New Burst Time = 33
+Consumer = 2, Process Id = 65, Priority = 0, Previous Burst Time = 3, New Burst Time = 0, Turn Around Time = 18
+Producer Id = 1, Items Produced = 70, New Process Id = 69, Burst Time = 20
+Consumer = 3, Process Id = 67, Priority = 5, Previous Burst Time = 32, New Burst Time = 27
+Consumer = 0, Process Id = 68, Priority = 11, Previous Burst Time = 7, New Burst Time = 2, Response Time = 5
+Consumer = 1, Process Id = 66, Priority = 1, Previous Burst Time = 33, New Burst Time = 28
+Consumer = 2, Process Id = 59, Priority = 27, Previous Burst Time = 20, New Burst Time = 15
+Consumer = 0, Process Id = 68, Priority = 11, Previous Burst Time = 2, New Burst Time = 0, Turn Around Time = 12
+Producer Id = 0, Items Produced = 71, New Process Id = 70, Burst Time = 29
+Consumer = 3, Process Id = 67, Priority = 5, Previous Burst Time = 27, New Burst Time = 22
+Consumer = 1, Process Id = 66, Priority = 1, Previous Burst Time = 28, New Burst Time = 23
+Consumer = 2, Process Id = 69, Priority = 16, Previous Burst Time = 20, New Burst Time = 15, Response Time = 5
+Consumer = 0, Process Id = 59, Priority = 27, Previous Burst Time = 15, New Burst Time = 10
+Consumer = 3, Process Id = 67, Priority = 5, Previous Burst Time = 22, New Burst Time = 17
+Consumer = 1, Process Id = 66, Priority = 1, Previous Burst Time = 23, New Burst Time = 18
+Consumer = 2, Process Id = 70, Priority = 7, Previous Burst Time = 29, New Burst Time = 24, Response Time = 4
+Consumer = 0, Process Id = 69, Priority = 16, Previous Burst Time = 15, New Burst Time = 10
+Consumer = 3, Process Id = 67, Priority = 5, Previous Burst Time = 17, New Burst Time = 12
+Consumer = 1, Process Id = 66, Priority = 1, Previous Burst Time = 18, New Burst Time = 13
+Consumer = 2, Process Id = 70, Priority = 7, Previous Burst Time = 24, New Burst Time = 19
+Consumer = 0, Process Id = 69, Priority = 16, Previous Burst Time = 10, New Burst Time = 5
+Consumer = 3, Process Id = 67, Priority = 5, Previous Burst Time = 12, New Burst Time = 7
+Consumer = 1, Process Id = 66, Priority = 1, Previous Burst Time = 13, New Burst Time = 8
+Consumer = 2, Process Id = 70, Priority = 7, Previous Burst Time = 19, New Burst Time = 14
+Consumer = 0, Process Id = 69, Priority = 16, Previous Burst Time = 5, New Burst Time = 0, Turn Around Time = 25
+Producer Id = 1, Items Produced = 72, New Process Id = 71, Burst Time = 33
+Consumer = 3, Process Id = 67, Priority = 5, Previous Burst Time = 7, New Burst Time = 2
+Consumer = 3, Process Id = 67, Priority = 5, Previous Burst Time = 2, New Burst Time = 0, Turn Around Time = 37
+Producer Id = 0, Items Produced = 73, New Process Id = 72, Burst Time = 4
+Consumer = 1, Process Id = 66, Priority = 1, Previous Burst Time = 8, New Burst Time = 3
+Consumer = 2, Process Id = 70, Priority = 7, Previous Burst Time = 14, New Burst Time = 9
+Consumer = 0, Process Id = 59, Priority = 27, Previous Burst Time = 10, New Burst Time = 5
+Consumer = 1, Process Id = 66, Priority = 1, Previous Burst Time = 3, New Burst Time = 0, Turn Around Time = 48
+Producer Id = 1, Items Produced = 74, New Process Id = 73, Burst Time = 21
+Consumer = 3, Process Id = 71, Priority = 29, Previous Burst Time = 33, New Burst Time = 28, Response Time = 2
+Consumer = 2, Process Id = 72, Priority = 3, Previous Burst Time = 4, New Burst Time = 0, Response Time = 1, Turn Around Time = 5
+Producer Id = 0, Items Produced = 75, New Process Id = 74, Burst Time = 9
+Consumer = 0, Process Id = 70, Priority = 7, Previous Burst Time = 9, New Burst Time = 4
+Consumer = 1, Process Id = 59, Priority = 27, Previous Burst Time = 5, New Burst Time = 0, Turn Around Time = 103
+Producer Id = 1, Items Produced = 76, New Process Id = 75, Burst Time = 41
+Consumer = 3, Process Id = 73, Priority = 8, Previous Burst Time = 21, New Burst Time = 16, Response Time = 1
+Consumer = 2, Process Id = 74, Priority = 27, Previous Burst Time = 9, New Burst Time = 4, Response Time = 0
+Consumer = 0, Process Id = 70, Priority = 7, Previous Burst Time = 4, New Burst Time = 0, Turn Around Time = 34
+Producer Id = 0, Items Produced = 77, New Process Id = 76, Burst Time = 47
+Consumer = 1, Process Id = 71, Priority = 29, Previous Burst Time = 28, New Burst Time = 23
+Consumer = 3, Process Id = 75, Priority = 5, Previous Burst Time = 41, New Burst Time = 36, Response Time = 1
+Consumer = 0, Process Id = 74, Priority = 27, Previous Burst Time = 4, New Burst Time = 0, Turn Around Time = 9
+Producer Id = 1, Items Produced = 78, New Process Id = 77, Burst Time = 19
+Consumer = 2, Process Id = 73, Priority = 8, Previous Burst Time = 16, New Burst Time = 11
+Consumer = 1, Process Id = 76, Priority = 19, Previous Burst Time = 47, New Burst Time = 42, Response Time = 2
+Consumer = 3, Process Id = 75, Priority = 5, Previous Burst Time = 36, New Burst Time = 31
+Consumer = 0, Process Id = 71, Priority = 29, Previous Burst Time = 23, New Burst Time = 18
+Consumer = 2, Process Id = 77, Priority = 5, Previous Burst Time = 19, New Burst Time = 14, Response Time = 0
+Consumer = 1, Process Id = 73, Priority = 8, Previous Burst Time = 11, New Burst Time = 6
+Consumer = 3, Process Id = 75, Priority = 5, Previous Burst Time = 31, New Burst Time = 26
+Consumer = 0, Process Id = 76, Priority = 19, Previous Burst Time = 42, New Burst Time = 37
+Consumer = 2, Process Id = 77, Priority = 5, Previous Burst Time = 14, New Burst Time = 9
+Consumer = 1, Process Id = 73, Priority = 8, Previous Burst Time = 6, New Burst Time = 1
+Consumer = 1, Process Id = 73, Priority = 8, Previous Burst Time = 1, New Burst Time = 0, Turn Around Time = 26
+Producer Id = 0, Items Produced = 79, New Process Id = 78, Burst Time = 47
+Consumer = 3, Process Id = 75, Priority = 5, Previous Burst Time = 26, New Burst Time = 21
+Consumer = 0, Process Id = 76, Priority = 19, Previous Burst Time = 37, New Burst Time = 32
+Consumer = 2, Process Id = 77, Priority = 5, Previous Burst Time = 9, New Burst Time = 4
+Consumer = 2, Process Id = 77, Priority = 5, Previous Burst Time = 4, New Burst Time = 0, Turn Around Time = 19
+Producer Id = 1, Items Produced = 80, New Process Id = 79, Burst Time = 22
+Consumer = 1, Process Id = 71, Priority = 29, Previous Burst Time = 18, New Burst Time = 13
+Consumer = 3, Process Id = 75, Priority = 5, Previous Burst Time = 21, New Burst Time = 16
+Consumer = 0, Process Id = 78, Priority = 11, Previous Burst Time = 47, New Burst Time = 42, Response Time = 0
+Consumer = 2, Process Id = 76, Priority = 19, Previous Burst Time = 32, New Burst Time = 27
+Consumer = 1, Process Id = 79, Priority = 3, Previous Burst Time = 22, New Burst Time = 17, Response Time = 0
+Consumer = 3, Process Id = 75, Priority = 5, Previous Burst Time = 16, New Burst Time = 11
+Consumer = 0, Process Id = 78, Priority = 11, Previous Burst Time = 42, New Burst Time = 37
+Consumer = 2, Process Id = 76, Priority = 19, Previous Burst Time = 27, New Burst Time = 22
+Consumer = 1, Process Id = 79, Priority = 3, Previous Burst Time = 17, New Burst Time = 12
+Consumer = 3, Process Id = 75, Priority = 5, Previous Burst Time = 11, New Burst Time = 6
+Consumer = 0, Process Id = 78, Priority = 11, Previous Burst Time = 37, New Burst Time = 32
+Consumer = 2, Process Id = 76, Priority = 19, Previous Burst Time = 22, New Burst Time = 17
+Consumer = 1, Process Id = 79, Priority = 3, Previous Burst Time = 12, New Burst Time = 7
+Consumer = 3, Process Id = 75, Priority = 5, Previous Burst Time = 6, New Burst Time = 1
+Consumer = 0, Process Id = 78, Priority = 11, Previous Burst Time = 32, New Burst Time = 27
+Consumer = 3, Process Id = 75, Priority = 5, Previous Burst Time = 1, New Burst Time = 0, Turn Around Time = 42
+Producer Id = 0, Items Produced = 81, New Process Id = 80, Burst Time = 30
+Consumer = 2, Process Id = 76, Priority = 19, Previous Burst Time = 17, New Burst Time = 12
+Consumer = 1, Process Id = 79, Priority = 3, Previous Burst Time = 7, New Burst Time = 2
+Consumer = 0, Process Id = 78, Priority = 11, Previous Burst Time = 27, New Burst Time = 22
+Consumer = 3, Process Id = 71, Priority = 29, Previous Burst Time = 13, New Burst Time = 8
+Consumer = 1, Process Id = 79, Priority = 3, Previous Burst Time = 2, New Burst Time = 0, Turn Around Time = 22
+Producer Id = 1, Items Produced = 82, New Process Id = 81, Burst Time = 15
+Consumer = 2, Process Id = 80, Priority = 16, Previous Burst Time = 30, New Burst Time = 25, Response Time = 3
+Consumer = 0, Process Id = 78, Priority = 11, Previous Burst Time = 22, New Burst Time = 17
+Consumer = 3, Process Id = 76, Priority = 19, Previous Burst Time = 12, New Burst Time = 7
+Consumer = 1, Process Id = 71, Priority = 29, Previous Burst Time = 8, New Burst Time = 3
+Consumer = 2, Process Id = 81, Priority = 4, Previous Burst Time = 15, New Burst Time = 10, Response Time = 2
+Consumer = 0, Process Id = 78, Priority = 11, Previous Burst Time = 17, New Burst Time = 12
+Consumer = 3, Process Id = 80, Priority = 16, Previous Burst Time = 25, New Burst Time = 20
+Consumer = 1, Process Id = 76, Priority = 19, Previous Burst Time = 7, New Burst Time = 2
+Consumer = 1, Process Id = 76, Priority = 19, Previous Burst Time = 2, New Burst Time = 0, Turn Around Time = 57
+Producer Id = 0, Items Produced = 83, New Process Id = 82, Burst Time = 42
+Consumer = 2, Process Id = 81, Priority = 4, Previous Burst Time = 10, New Burst Time = 5
+Consumer = 0, Process Id = 78, Priority = 11, Previous Burst Time = 12, New Burst Time = 7
+Consumer = 3, Process Id = 80, Priority = 16, Previous Burst Time = 20, New Burst Time = 15
+Consumer = 1, Process Id = 71, Priority = 29, Previous Burst Time = 3, New Burst Time = 0, Turn Around Time = 74
+Producer Id = 1, Items Produced = 84, New Process Id = 83, Burst Time = 44
+Consumer = 2, Process Id = 81, Priority = 4, Previous Burst Time = 5, New Burst Time = 0, Turn Around Time = 17
+Producer Id = 0, Items Produced = 85, New Process Id = 84, Burst Time = 35
+Consumer = 0, Process Id = 78, Priority = 11, Previous Burst Time = 7, New Burst Time = 2
+Consumer = 3, Process Id = 80, Priority = 16, Previous Burst Time = 15, New Burst Time = 10
+Consumer = 1, Process Id = 82, Priority = 30, Previous Burst Time = 42, New Burst Time = 37, Response Time = 3
+Consumer = 0, Process Id = 78, Priority = 11, Previous Burst Time = 2, New Burst Time = 0, Turn Around Time = 47
+Producer Id = 1, Items Produced = 86, New Process Id = 85, Burst Time = 25
+Consumer = 2, Process Id = 84, Priority = 20, Previous Burst Time = 35, New Burst Time = 30, Response Time = 0
+Consumer = 3, Process Id = 80, Priority = 16, Previous Burst Time = 10, New Burst Time = 5
+Consumer = 1, Process Id = 83, Priority = 28, Previous Burst Time = 44, New Burst Time = 39, Response Time = 4
+Consumer = 0, Process Id = 82, Priority = 30, Previous Burst Time = 37, New Burst Time = 32
+Consumer = 2, Process Id = 85, Priority = 18, Previous Burst Time = 25, New Burst Time = 20, Response Time = 2
+Consumer = 3, Process Id = 80, Priority = 16, Previous Burst Time = 5, New Burst Time = 0, Turn Around Time = 35
+Producer Id = 0, Items Produced = 87, New Process Id = 86, Burst Time = 38
+Consumer = 1, Process Id = 84, Priority = 20, Previous Burst Time = 30, New Burst Time = 25
+Consumer = 0, Process Id = 83, Priority = 28, Previous Burst Time = 39, New Burst Time = 34
+Consumer = 2, Process Id = 85, Priority = 18, Previous Burst Time = 20, New Burst Time = 15
+Consumer = 3, Process Id = 82, Priority = 30, Previous Burst Time = 32, New Burst Time = 27
+Consumer = 1, Process Id = 86, Priority = 16, Previous Burst Time = 38, New Burst Time = 33, Response Time = 0
+Consumer = 0, Process Id = 84, Priority = 20, Previous Burst Time = 25, New Burst Time = 20
+Consumer = 2, Process Id = 85, Priority = 18, Previous Burst Time = 15, New Burst Time = 10
+Consumer = 3, Process Id = 83, Priority = 28, Previous Burst Time = 34, New Burst Time = 29
+Consumer = 1, Process Id = 86, Priority = 16, Previous Burst Time = 33, New Burst Time = 28
+Consumer = 0, Process Id = 84, Priority = 20, Previous Burst Time = 20, New Burst Time = 15
+Consumer = 2, Process Id = 85, Priority = 18, Previous Burst Time = 10, New Burst Time = 5
+Consumer = 3, Process Id = 83, Priority = 28, Previous Burst Time = 29, New Burst Time = 24
+Consumer = 1, Process Id = 86, Priority = 16, Previous Burst Time = 28, New Burst Time = 23
+Consumer = 0, Process Id = 84, Priority = 20, Previous Burst Time = 15, New Burst Time = 10
+Consumer = 2, Process Id = 85, Priority = 18, Previous Burst Time = 5, New Burst Time = 0, Turn Around Time = 27
+Producer Id = 1, Items Produced = 88, New Process Id = 87, Burst Time = 44
+Consumer = 3, Process Id = 83, Priority = 28, Previous Burst Time = 24, New Burst Time = 19
+Consumer = 1, Process Id = 86, Priority = 16, Previous Burst Time = 23, New Burst Time = 18
+Consumer = 0, Process Id = 84, Priority = 20, Previous Burst Time = 10, New Burst Time = 5
+Consumer = 2, Process Id = 82, Priority = 30, Previous Burst Time = 27, New Burst Time = 22
+Consumer = 3, Process Id = 87, Priority = 27, Previous Burst Time = 44, New Burst Time = 39, Response Time = 1
+Consumer = 1, Process Id = 86, Priority = 16, Previous Burst Time = 18, New Burst Time = 13
+Consumer = 0, Process Id = 84, Priority = 20, Previous Burst Time = 5, New Burst Time = 0, Turn Around Time = 37
+Producer Id = 0, Items Produced = 89, New Process Id = 88, Burst Time = 28
+Consumer = 2, Process Id = 83, Priority = 28, Previous Burst Time = 19, New Burst Time = 14
+Consumer = 3, Process Id = 87, Priority = 27, Previous Burst Time = 39, New Burst Time = 34
+Consumer = 1, Process Id = 86, Priority = 16, Previous Burst Time = 13, New Burst Time = 8
+Consumer = 0, Process Id = 82, Priority = 30, Previous Burst Time = 22, New Burst Time = 17
+Consumer = 2, Process Id = 88, Priority = 13, Previous Burst Time = 28, New Burst Time = 23, Response Time = 2
+Consumer = 3, Process Id = 87, Priority = 27, Previous Burst Time = 34, New Burst Time = 29
+Consumer = 1, Process Id = 86, Priority = 16, Previous Burst Time = 8, New Burst Time = 3
+Consumer = 0, Process Id = 83, Priority = 28, Previous Burst Time = 14, New Burst Time = 9
+Consumer = 2, Process Id = 88, Priority = 13, Previous Burst Time = 23, New Burst Time = 18
+Consumer = 1, Process Id = 86, Priority = 16, Previous Burst Time = 3, New Burst Time = 0, Turn Around Time = 38
+Producer Id = 1, Items Produced = 90, New Process Id = 89, Burst Time = 10
+Consumer = 3, Process Id = 87, Priority = 27, Previous Burst Time = 29, New Burst Time = 24
+Consumer = 0, Process Id = 83, Priority = 28, Previous Burst Time = 9, New Burst Time = 4
+Consumer = 2, Process Id = 88, Priority = 13, Previous Burst Time = 18, New Burst Time = 13
+Consumer = 1, Process Id = 82, Priority = 30, Previous Burst Time = 17, New Burst Time = 12
+Consumer = 3, Process Id = 89, Priority = 16, Previous Burst Time = 10, New Burst Time = 5, Response Time = 1
+Consumer = 0, Process Id = 87, Priority = 27, Previous Burst Time = 24, New Burst Time = 19
+Consumer = 1, Process Id = 83, Priority = 28, Previous Burst Time = 4, New Burst Time = 0, Turn Around Time = 62
+Producer Id = 0, Items Produced = 91, New Process Id = 90, Burst Time = 33
+Consumer = 2, Process Id = 88, Priority = 13, Previous Burst Time = 13, New Burst Time = 8
+Consumer = 3, Process Id = 89, Priority = 16, Previous Burst Time = 5, New Burst Time = 0, Turn Around Time = 11
+Producer Id = 1, Items Produced = 92, New Process Id = 91, Burst Time = 38
+Consumer = 0, Process Id = 87, Priority = 27, Previous Burst Time = 19, New Burst Time = 14
+Consumer = 1, Process Id = 82, Priority = 30, Previous Burst Time = 12, New Burst Time = 7
+Consumer = 2, Process Id = 90, Priority = 7, Previous Burst Time = 33, New Burst Time = 28, Response Time = 0
+Consumer = 3, Process Id = 88, Priority = 13, Previous Burst Time = 8, New Burst Time = 3
+Consumer = 0, Process Id = 87, Priority = 27, Previous Burst Time = 14, New Burst Time = 9
+Consumer = 1, Process Id = 91, Priority = 28, Previous Burst Time = 38, New Burst Time = 33, Response Time = 2
+Consumer = 3, Process Id = 88, Priority = 13, Previous Burst Time = 3, New Burst Time = 0, Turn Around Time = 31
+Producer Id = 0, Items Produced = 93, New Process Id = 92, Burst Time = 26
+Consumer = 2, Process Id = 90, Priority = 7, Previous Burst Time = 28, New Burst Time = 23
+Consumer = 0, Process Id = 87, Priority = 27, Previous Burst Time = 9, New Burst Time = 4
+Consumer = 1, Process Id = 91, Priority = 28, Previous Burst Time = 33, New Burst Time = 28
+Consumer = 3, Process Id = 82, Priority = 30, Previous Burst Time = 7, New Burst Time = 2
+Consumer = 2, Process Id = 90, Priority = 7, Previous Burst Time = 23, New Burst Time = 18
+Consumer = 0, Process Id = 92, Priority = 15, Previous Burst Time = 26, New Burst Time = 21, Response Time = 3
+Consumer = 1, Process Id = 87, Priority = 27, Previous Burst Time = 4, New Burst Time = 0, Turn Around Time = 48
+Producer Id = 1, Items Produced = 94, New Process Id = 93, Burst Time = 25
+Consumer = 3, Process Id = 91, Priority = 28, Previous Burst Time = 28, New Burst Time = 23
+Consumer = 2, Process Id = 90, Priority = 7, Previous Burst Time = 18, New Burst Time = 13
+Consumer = 1, Process Id = 82, Priority = 30, Previous Burst Time = 2, New Burst Time = 0, Turn Around Time = 86
+Producer Id = 0, Items Produced = 95, New Process Id = 94, Burst Time = 9
+Consumer = 0, Process Id = 92, Priority = 15, Previous Burst Time = 21, New Burst Time = 16
+Consumer = 3, Process Id = 93, Priority = 25, Previous Burst Time = 25, New Burst Time = 20, Response Time = 1
+Consumer = 2, Process Id = 90, Priority = 7, Previous Burst Time = 13, New Burst Time = 8
+Consumer = 1, Process Id = 91, Priority = 28, Previous Burst Time = 23, New Burst Time = 18
+Consumer = 0, Process Id = 92, Priority = 15, Previous Burst Time = 16, New Burst Time = 11
+Consumer = 3, Process Id = 93, Priority = 25, Previous Burst Time = 20, New Burst Time = 15
+Consumer = 2, Process Id = 90, Priority = 7, Previous Burst Time = 8, New Burst Time = 3
+Consumer = 1, Process Id = 94, Priority = 27, Previous Burst Time = 9, New Burst Time = 4, Response Time = 5
+Consumer = 0, Process Id = 92, Priority = 15, Previous Burst Time = 11, New Burst Time = 6
+Consumer = 2, Process Id = 90, Priority = 7, Previous Burst Time = 3, New Burst Time = 0, Turn Around Time = 33
+Producer Id = 1, Items Produced = 96, New Process Id = 95, Burst Time = 30
+Consumer = 1, Process Id = 94, Priority = 27, Previous Burst Time = 4, New Burst Time = 0, Turn Around Time = 14
+Producer Id = 0, Items Produced = 97, New Process Id = 96, Burst Time = 36
+Consumer = 3, Process Id = 93, Priority = 25, Previous Burst Time = 15, New Burst Time = 10
+Consumer = 0, Process Id = 92, Priority = 15, Previous Burst Time = 6, New Burst Time = 1
+Consumer = 2, Process Id = 91, Priority = 28, Previous Burst Time = 18, New Burst Time = 13
+Consumer = 0, Process Id = 92, Priority = 15, Previous Burst Time = 1, New Burst Time = 0, Turn Around Time = 29
+Producer Id = 1, Items Produced = 98, New Process Id = 97, Burst Time = 19
+Consumer = 1, Process Id = 95, Priority = 21, Previous Burst Time = 30, New Burst Time = 25, Response Time = 1
+Consumer = 3, Process Id = 96, Priority = 1, Previous Burst Time = 36, New Burst Time = 31, Response Time = 0
+Consumer = 2, Process Id = 93, Priority = 25, Previous Burst Time = 10, New Burst Time = 5
+Consumer = 0, Process Id = 91, Priority = 28, Previous Burst Time = 13, New Burst Time = 8
+Consumer = 1, Process Id = 95, Priority = 21, Previous Burst Time = 25, New Burst Time = 20
+Consumer = 3, Process Id = 96, Priority = 1, Previous Burst Time = 31, New Burst Time = 26
+Consumer = 2, Process Id = 93, Priority = 25, Previous Burst Time = 5, New Burst Time = 0, Turn Around Time = 29
+Producer Id = 0, Items Produced = 99, New Process Id = 98, Burst Time = 44
+Consumer = 0, Process Id = 97, Priority = 28, Previous Burst Time = 19, New Burst Time = 14, Response Time = 5
+Consumer = 1, Process Id = 95, Priority = 21, Previous Burst Time = 20, New Burst Time = 15
+Consumer = 3, Process Id = 96, Priority = 1, Previous Burst Time = 26, New Burst Time = 21
+Consumer = 2, Process Id = 98, Priority = 3, Previous Burst Time = 44, New Burst Time = 39, Response Time = 0
+Consumer = 0, Process Id = 91, Priority = 28, Previous Burst Time = 8, New Burst Time = 3
+Consumer = 1, Process Id = 95, Priority = 21, Previous Burst Time = 15, New Burst Time = 10
+Consumer = 3, Process Id = 96, Priority = 1, Previous Burst Time = 21, New Burst Time = 16
+Consumer = 2, Process Id = 98, Priority = 3, Previous Burst Time = 39, New Burst Time = 34
+Consumer = 0, Process Id = 97, Priority = 28, Previous Burst Time = 14, New Burst Time = 9
+Consumer = 1, Process Id = 95, Priority = 21, Previous Burst Time = 10, New Burst Time = 5
+Consumer = 3, Process Id = 96, Priority = 1, Previous Burst Time = 16, New Burst Time = 11
+Consumer = 0, Process Id = 91, Priority = 28, Previous Burst Time = 3, New Burst Time = 0, Turn Around Time = 60
+Producer Id = 1, Items Produced = 100, New Process Id = 99, Burst Time = 29
+Consumer = 2, Process Id = 98, Priority = 3, Previous Burst Time = 34, New Burst Time = 29
+Consumer = 1, Process Id = 95, Priority = 21, Previous Burst Time = 5, New Burst Time = 0, Turn Around Time = 31
+Consumer = 3, Process Id = 96, Priority = 1, Previous Burst Time = 11, New Burst Time = 6
+Consumer = 0, Process Id = 97, Priority = 28, Previous Burst Time = 9, New Burst Time = 4
+Consumer = 2, Process Id = 98, Priority = 3, Previous Burst Time = 29, New Burst Time = 24
+Consumer = 1, Process Id = 99, Priority = 9, Previous Burst Time = 29, New Burst Time = 24, Response Time = 2
+Consumer = 3, Process Id = 96, Priority = 1, Previous Burst Time = 6, New Burst Time = 1
+Consumer = 3, Process Id = 96, Priority = 1, Previous Burst Time = 1, New Burst Time = 0, Turn Around Time = 36
+Consumer = 0, Process Id = 97, Priority = 28, Previous Burst Time = 4, New Burst Time = 0, Turn Around Time = 32
+Consumer = 2, Process Id = 98, Priority = 3, Previous Burst Time = 24, New Burst Time = 19
+Consumer = 1, Process Id = 99, Priority = 9, Previous Burst Time = 24, New Burst Time = 19
+Consumer = 2, Process Id = 98, Priority = 3, Previous Burst Time = 19, New Burst Time = 14
+Consumer = 1, Process Id = 99, Priority = 9, Previous Burst Time = 19, New Burst Time = 14
+Consumer = 2, Process Id = 98, Priority = 3, Previous Burst Time = 14, New Burst Time = 9
+Consumer = 1, Process Id = 99, Priority = 9, Previous Burst Time = 14, New Burst Time = 9
+Consumer = 2, Process Id = 98, Priority = 3, Previous Burst Time = 9, New Burst Time = 4
+Consumer = 1, Process Id = 99, Priority = 9, Previous Burst Time = 9, New Burst Time = 4
+Consumer = 2, Process Id = 98, Priority = 3, Previous Burst Time = 4, New Burst Time = 0, Turn Around Time = 44
+Consumer = 1, Process Id = 99, Priority = 9, Previous Burst Time = 4, New Burst Time = 0, Turn Around Time = 31
+Average Response Time = 1.980000
+Average Turn Around Time = 34.930000
