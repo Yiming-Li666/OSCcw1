@@ -1,98 +1,130 @@
-#include <stdlib.h>
 #include <stdio.h>
+#include <stdlib.h>
+#include <sys/time.h>
 #include "coursework.h"
 #include "linkedlist.h"
+#include <time.h>
 
-int main(){
-	struct element *pHead = NULL;
-	struct element *pTail = NULL;
-	struct element *pPointer = NULL;
-    struct element *tempPointer = NULL;
-    struct element *previousPointer = NULL;
-	struct timeval oStartTime;
-	struct timeval oEndTime; 
-	double avgResponseTime = 0;
-	double avgTurnAroundTime = 0;
-	int responseTime = 0;
-	int turnAroundTime = 0;
-    int numberOfProcessLeft = NUMBER_OF_PROCESSES;
-    int done = 0;
-    
-    // Display and all processes to the linked list
-    printf("PROCESS LIST:\n");
-    for(int i = 0; i < NUMBER_OF_PROCESSES; i++){
-		struct process * oTemp = generateProcess();
-		addLast(oTemp,&pHead,&pTail);
-        printf("         Process Id = %d, Priority = %d, Initial Burst Time = %d, Remaining Burst Time = %d\n",((struct process*)(pTail->pData))->iProcessId,((struct process*)(pTail->pData))->iPriority,((struct process*)(pTail->pData))->iInitialBurstTime,((struct process*)(pTail->pData))->iRemainingBurstTime);
-	}
-    printf("END\n\n");
+struct priorityQueue {
+  int priorityId;
+  struct element *pHead;
+  struct element *pTail;
+  int counter;
+};
 
-    // Reset the pointer to the first node
-    pPointer = pHead;
- 
-    // Run the linked list once and calculate the response time
-    for(int j = 0; j < NUMBER_OF_PROCESSES; j++){
-        runPreemptiveJob((struct process*)pPointer->pData, &oStartTime, &oEndTime);	
-        responseTime = getDifferenceInMilliSeconds(((struct process*)(pPointer->pData))->oTimeCreated,oStartTime);
-        printf("Process Id = %d, Priority = %d, Previous Burst Time = %d, Remaining Burst Time = %d, Response Time = %d\n",((struct process*)(pPointer->pData))->iProcessId,((struct process*)(pPointer->pData))->iPriority,((struct process*)(pPointer->pData))->iPreviousBurstTime,((struct process*)(pPointer->pData))->iRemainingBurstTime,responseTime);
-        avgResponseTime += responseTime;
-        pPointer = pPointer->pNext;
+int main() {
+    // for Prioirity Queue
+    struct element *PQHead = NULL;
+    struct element *PQTail = NULL;
+    // for process linked list
+    struct element *pHead = NULL;
+    struct element *pTail = NULL;
+    struct element *processPointer = NULL;
+    double averageResponseTime = 0;
+    double averageTurnAroundTime = 0;
+    double responseTime = 0;
+    double turnAroundTime = 0;
+
+    //create a single linked list to store all the Priority Queue
+    int i;
+    for(i=0; i < MAX_PRIORITY;i++){
+        struct priorityQueue *currentPQ = (struct priorityQueue*) malloc(sizeof(struct priorityQueue));
+        currentPQ->priorityId = i;
+        currentPQ->pHead = NULL;
+        currentPQ->pTail = NULL;
+        currentPQ->counter = 0;                                                                                          
+        //add this currentPQ to the endTime of Priority Queue
+        addLast(currentPQ,&PQHead,&PQTail);
     }
 
-//  Repeat the linked list until it is empty
-    while (pHead != NULL){
-        
-        done = 0;
-        pPointer = pHead;
+    // Add all the processes to linked list
+    // srand((unsigned)time(NULL));
+    for(i = 0; i <NUMBER_OF_PROCESSES;i++){ 
+        struct process * newProcess = generateProcess();
+        addLast(newProcess,&pHead,&pTail);
+        // Set the pointer to the first priority
+        processPointer = PQHead;
+        // looking for the corresponding priority
+        int j = 0;
+        for(j = 0; j < newProcess->iPriority;j++){
+            processPointer = processPointer->pNext;
+        }
+        //Add all the processes to the priority queue
+        struct priorityQueue *currentPQ = processPointer->pData;
+        addLast(newProcess,&(currentPQ->pHead),&(currentPQ->pTail));
+        currentPQ->counter = currentPQ->counter + 1;
+    }
 
-        // A linked list queue
-        for(int k = 0; k < numberOfProcessLeft; k++){
-       
-            // Run the process
-            runPreemptiveJob((struct process*)pPointer->pData, &oStartTime, &oEndTime);	
-            turnAroundTime = getDifferenceInMilliSeconds(((struct process*)(pPointer->pData))->oTimeCreated,oEndTime);
-            
-            // If current node have not yet finish process but time slice is used up
-            if(((struct process*)(pPointer->pData))->iRemainingBurstTime != 0){
-                printf("Process Id = %d, Priority = %d, Previous Burst Time = %d, Remaining Burst Time = %d\n",((struct process*)(pPointer->pData))->iProcessId,((struct process*)(pPointer->pData))->iPriority,((struct process*)(pPointer->pData))->iPreviousBurstTime,((struct process*)(pPointer->pData))->iRemainingBurstTime);
+    //-------------------------------------------------------------------
+    //print out the priority and process
+    printf("PROCESS LIST:\n");
+    // Set the pointer to the first priority
+    processPointer = PQHead;
+    while(processPointer != NULL){
+        struct priorityQueue *currentPQ = processPointer->pData;
+        if(currentPQ->counter != 0){
+            printf("Priority %d:\n",currentPQ->priorityId);
+            struct element *currentProcessList = currentPQ->pHead;
+            while(currentProcessList != NULL){
+                struct process *currentProcess = currentProcessList->pData;
+                printf("\tProcess Id = %d, Priority = %d, Initial Burst Time = %d, Remaining Burst Time = %d\n",currentProcess->iProcessId,currentPQ->priorityId,currentProcess->iInitialBurstTime,currentProcess->iRemainingBurstTime);
+                currentProcessList = currentProcessList->pNext;
             }
-                        
-            // If head node has completed the process
-            if(((struct process*)pHead->pData)->iRemainingBurstTime == 0){       
-                printf("Process Id = %d, Priority = %d, Previous Burst Time = %d, Remaining Burst Time = %d, Turn Around Time = %d\n",((struct process*)(pPointer->pData))->iProcessId,((struct process*)(pPointer->pData))->iPriority,((struct process*)(pPointer->pData))->iPreviousBurstTime,((struct process*)(pPointer->pData))->iRemainingBurstTime,turnAroundTime);
-                avgTurnAroundTime += turnAroundTime;
-                free(pHead->pData);
-                removeFirst(&pHead,&pTail);
-                pPointer = pHead;
-                done++;
-                continue;
+        }
+        processPointer = processPointer->pNext;
+    }
+    printf("endTime\n\n");
+
+    //-------------------------------------------------------------------
+    //run process
+    processPointer = PQHead;
+    while(processPointer != NULL){
+        struct priorityQueue *currentPQ = processPointer->pData;
+        //if no element inside this priority
+        if(currentPQ->counter == 0){    
+            processPointer = processPointer->pNext;
+            continue;
+        }
+        else{
+            struct process *currentProcess = currentPQ->pHead->pData;
+            struct timeval startTime,endTime;
+            runPreemptiveJob(currentProcess,&startTime,&endTime);
+            struct process *executedProcess = removeFirst(&(currentPQ->pHead),&(currentPQ->pTail));
+      
+            //The prcess is the first time to execute and the execute time is larger than TIME_SLICE
+            if(executedProcess->iPreviousBurstTime == executedProcess->iInitialBurstTime && executedProcess->iInitialBurstTime > TIME_SLICE){
+                printf("\tProcess Id = %d, Priority = %d, Previous Burst Time = %d, Remaining Burst Time = %d, Respond Time = %d\n",executedProcess->iProcessId,currentPQ->priorityId,executedProcess->iPreviousBurstTime,executedProcess->iRemainingBurstTime,getDifferenceInMilliSeconds(currentProcess->oTimeCreated,startTime));
+                responseTime = responseTime + getDifferenceInMilliSeconds(currentProcess->oTimeCreated,startTime);
             }
-            
-            // If current node has completed process
-            if(((struct process*)pPointer->pData)->iRemainingBurstTime == 0){ 
-                printf("Process Id = %d, Priority = %d, Previous Burst Time = %d, Remaining Burst Time = %d, Turn Around Time = %d\n",((struct process*)(pPointer->pData))->iProcessId,((struct process*)(pPointer->pData))->iPriority,((struct process*)(pPointer->pData))->iPreviousBurstTime,((struct process*)(pPointer->pData))->iRemainingBurstTime,turnAroundTime);
-                avgTurnAroundTime += turnAroundTime;
-                // Remove the node that is completed
-                tempPointer = pPointer;
-                pPointer = previousPointer;
-                pPointer -> pNext = previousPointer ->pNext ->pNext;
-                free(tempPointer->pData);
-                free(tempPointer);
-                done++;
-            }    
-
-            // Move the node
-            previousPointer = pPointer;
-            pPointer = pPointer->pNext;
-       }
-
-       // Substract the completed node from the linked list
-       if(done>0){
-            numberOfProcessLeft = numberOfProcessLeft - done;
+            //The process is the first time to execute and the execute time is larger than 0 and less than TIME_SLICE 
+            else if(executedProcess->iPreviousBurstTime == executedProcess->iInitialBurstTime && TIME_SLICE >= executedProcess->iInitialBurstTime > 0){  
+                printf("\tProcess Id = %d, Priority = %d, Previous Burst Time = %d, Remaining Burst Time = %d, Respond Time = %d, TurnAroundTime = %d\n",executedProcess->iProcessId,currentPQ->priorityId,executedProcess->iPreviousBurstTime,executedProcess->iRemainingBurstTime,getDifferenceInMilliSeconds(currentProcess->oTimeCreated,startTime),getDifferenceInMilliSeconds(currentProcess->oTimeCreated,endTime));
+                responseTime = responseTime + getDifferenceInMilliSeconds(currentProcess->oTimeCreated,startTime);
+                turnAroundTime = turnAroundTime + getDifferenceInMilliSeconds(currentProcess->oTimeCreated,endTime);
+            }
+            //The process is running endTime
+            else if(executedProcess->iRemainingBurstTime == 0){
+                printf("\tProcess Id = %d, Priority = %d, Previous Burst Time = %d, Remaining Burst Time = %d, TurnAroundTime = %d\n",executedProcess->iProcessId,currentPQ->priorityId,executedProcess->iPreviousBurstTime,executedProcess->iRemainingBurstTime,getDifferenceInMilliSeconds(currentProcess->oTimeCreated,endTime));
+                turnAroundTime = turnAroundTime + getDifferenceInMilliSeconds(currentProcess->oTimeCreated,endTime);
+            }
+            else{
+                printf("\tProcess Id = %d, Priority = %d, Previous Burst Time = %d, Remaining Burst Time = %d\n",executedProcess->iProcessId,currentPQ->priorityId,executedProcess->iPreviousBurstTime,executedProcess->iRemainingBurstTime);
+            }
+           
+            //If the remaining time to execute is bigger than 0,add this process to the endTime of single list
+            if(executedProcess->iRemainingBurstTime > 0){
+                addLast(executedProcess,&(currentPQ->pHead),&(currentPQ->pTail));
+            }
+            else{
+                free(executedProcess);
+                currentPQ->counter--;
+            }
         }
     }
+    //Calculating the average respondtime and turnAroundTime
+    averageResponseTime = responseTime/NUMBER_OF_PROCESSES;
+    averageTurnAroundTime = turnAroundTime/NUMBER_OF_PROCESSES;
+    printf("Average of respond time is: %.6f\nAverage of turn around time is: %.6f\n",averageResponseTime,averageTurnAroundTime);
 
-    // Calculate average response time and turnaround time
-    printf("Average response time = %.6f\n",avgResponseTime/NUMBER_OF_PROCESSES);
-    printf("Average turn around time = %.6f\n",avgTurnAroundTime/NUMBER_OF_PROCESSES);
+    return 0;
 }
