@@ -38,7 +38,6 @@ int main() {
     }
 
     // Add all the processes to linked list
-    // srand((unsigned)time(NULL));
     for(i = 0; i <NUMBER_OF_PROCESSES;i++){ 
         struct process * newProcess = generateProcess();
         addLast(newProcess,&pHead,&pTail);
