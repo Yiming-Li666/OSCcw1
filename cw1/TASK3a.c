@@ -14,7 +14,7 @@ struct buffer{
 };
 
 struct buffer *pbuffer;
-pthread_mutex_t buffer_locker = PTHREAD_MUTEX_INITIALIZER;  //mutex lock
+pthread_mutex_t buffer_locker = PTHREAD_MUTEX_INITIALIZER;  //locker
 pthread_cond_t producerCond = PTHREAD_COND_INITIALIZER;  //Producer
 pthread_cond_t consumerCond = PTHREAD_COND_INITIALIZER;  //Consumer
 
@@ -98,7 +98,7 @@ void * Consumer(void *ID){
 }
 
 int main(int argc,char *argv[]) {
-    
+
     pthread_t threadAll[NUMBER_OF_PRODUCERS+NUMBER_OF_CONSUMERS];
     int i;
 
