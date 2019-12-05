@@ -100,14 +100,13 @@ void * Consumer(void *ID){
 int main(int argc,char *argv[]) {
 
     pthread_t threadAll[NUMBER_OF_PRODUCERS+NUMBER_OF_CONSUMERS];
-    int i;
-
-    //initialize buffer
+    
     pbuffer = (struct buffer*)malloc(sizeof(struct buffer)); 
     pbuffer->head = NULL;
     pbuffer->tail = NULL;
     pbuffer->counter = 0;
 
+    int i;
     // create producer threads
     for(i = 0; i < NUMBER_OF_PRODUCERS; i++){
         if(pthread_create(&threadAll[i],NULL,Producer,(void*)(long)i) == -1){
@@ -115,7 +114,6 @@ int main(int argc,char *argv[]) {
         exit(1);
         }
     }
-
     // create consumer threads
     for(i = 0;i < NUMBER_OF_CONSUMERS;i++){
         if(pthread_create(&threadAll[i+NUMBER_OF_PRODUCERS],NULL,Consumer,(void*)(long)i) == -1){
@@ -127,7 +125,7 @@ int main(int argc,char *argv[]) {
     for(i = 0; i <NUMBER_OF_PRODUCERS+NUMBER_OF_CONSUMERS; i++){
         pthread_join(threadAll[i],NULL);
     }
-
     printf("Average respond time is: %lf\nsum of turn around time is: %lf\n",respondTime/MAX_NUMBER_OF_JOBS,turnAroundTime/MAX_NUMBER_OF_JOBS);
+    pthread_mutex_destroy(&buffer_locker);
     return 0;
 }

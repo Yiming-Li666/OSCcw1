@@ -11,6 +11,7 @@
 #define SHARED_MEMORY_NAME "GDM123456"
 
 int main(int argc, char *argv[]) {
+	// open the same shared memory
 	int shm_fd = shm_open(SHARED_MEMORY_NAME, O_RDWR | O_CREAT, 0666); 
 	if(shm_fd == -1)  {  
 			printf("failed to open shared memory\n");  
@@ -22,12 +23,13 @@ int main(int argc, char *argv[]) {
 	}
 	
 	int * i_arr = mmap(NULL, SIZE_OF_MEMORY, PROT_READ | PROT_WRITE, MAP_SHARED, shm_fd, 0);
-	printf("ChildP1 opened shared memory\n");
+	// if ChildP1 has not processed for 10 times
 	while(i_arr[21] <= 10){
+		// if ChildP2 has not finished, do busy waiting
 		if (i_arr[21]==i_arr[22]) {
 			i_arr[i_arr[21] * 2 - 1] = i_arr[i_arr[21] * 2 - 2] * 2;
+			// counter++
 			i_arr[21] = i_arr[21] + 1;
-			printf("rand %d position %d counter1 %d\n", i_arr[i_arr[21] * 2 - 1], i_arr[21] * 2 - 1, i_arr[21]);
 		}
 		
 	};

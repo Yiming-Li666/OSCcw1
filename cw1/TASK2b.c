@@ -101,7 +101,7 @@ int main() {
                 responseTime = responseTime + getDifferenceInMilliSeconds(currentProcess->oTimeCreated,startTime);
                 turnAroundTime = turnAroundTime + getDifferenceInMilliSeconds(currentProcess->oTimeCreated,endTime);
             }
-            //The process is running endTime
+            //The process is end
             else if(executedProcess->iRemainingBurstTime == 0){
                 printf("\tProcess Id = %d, Priority = %d, Previous Burst Time = %d, Remaining Burst Time = %d, TurnAroundTime = %d\n",executedProcess->iProcessId,currentPQ->priorityId,executedProcess->iPreviousBurstTime,executedProcess->iRemainingBurstTime,getDifferenceInMilliSeconds(currentProcess->oTimeCreated,endTime));
                 turnAroundTime = turnAroundTime + getDifferenceInMilliSeconds(currentProcess->oTimeCreated,endTime);
